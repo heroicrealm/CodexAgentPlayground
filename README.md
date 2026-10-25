@@ -1,6 +1,18 @@
 # CodexAgentPlayground
 Playground for CodexAgent project
 
+Run the Go hello program:
+
+```sh
+go run hello.go
+```
+
+Expected output:
+
+```text
+hello worl
+```
+
 Build and run the C hello world program:
 
 ```sh

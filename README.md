@@ -1,6 +1,25 @@
 # CodexAgentPlayground
 Playground for CodexAgent project
 
+Run the Python QuickSort program (source file: `bubble_sort.py`):
+
+```sh
+python3 bubble_sort.py
+```
+
+The program sorts the array `5 2 8 6 1` in place in ascending order using QuickSort.
+Expected output:
+
+```text
+1 2 5 6 8
+```
+
+Run the Python sorting tests:
+
+```sh
+python3 -m unittest discover -v
+```
+
 Build and run the quicksort program (source file: `bubble_sort.c`):
 
 ```sh

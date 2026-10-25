@@ -10,7 +10,7 @@ go run hello.go
 Expected output:
 
 ```text
-hello worl
+hello world
 ```
 
 Build and run the C hello world program:

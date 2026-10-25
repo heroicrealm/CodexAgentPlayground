@@ -2,6 +2,8 @@
 
 int main(void)
 {
-    puts("hello world");
+    for (int i = 0; i < 10; ++i) {
+        puts("hello world");
+    }
     return 0;
 }

@@ -8,8 +8,17 @@ cc -std=c11 -Wall -Wextra -Werror hello.c -o hello
 ./hello
 ```
 
-Expected output:
+Expected output (10 lines):
 
 ```text
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
+hello world
 hello world
 ```

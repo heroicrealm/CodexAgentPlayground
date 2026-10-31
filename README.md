@@ -14,6 +14,10 @@ Expected output:
 Hello, World!
 ```
 
+Run the Java smoke test with `python3 -m unittest test_hello_world -v`.
+It compiles into a temporary directory and checks the exact output. The test
+is skipped when a JDK (`javac` and `java`) is unavailable.
+
 Run the Python QuickSort program (source file: `bubble_sort.py`):
 
 ```sh

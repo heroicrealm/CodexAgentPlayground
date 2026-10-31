@@ -1,0 +1,41 @@
+FreeBSD for an anime lover
+
+Patch the system, then set up anime playback on an existing FreeBSD desktop.
+No custom kernel patch is needed for this setup.
+
+1. Back up your files and configuration before updating. Use a supported
+   FreeBSD release and check the Handbook instructions for your installation.
+   On a RELEASE installation maintained with freebsd-update, run as root:
+
+       freebsd-update fetch
+       freebsd-update install
+
+   Reboot if the update requires it. For a system using packaged base updates
+   (pkgbase) or built from source, follow the corresponding Handbook procedure
+   instead of these freebsd-update commands.
+
+2. Update installed applications and install the mpv video player as root:
+
+       pkg update
+       pkg upgrade
+       pkg install mpv
+
+   Review the proposed package changes before accepting them.
+
+3. In your desktop session, play a legally obtained anime file as your normal
+   user, replacing these example paths with your own:
+
+       mpv --sub-file="$HOME/Videos/episode.ass" "$HOME/Videos/episode.mkv"
+
+   Embedded subtitles can be selected in the player without --sub-file.
+   If subtitles show missing characters, install fonts covering their language
+   through pkg and restart the player. If playback is silent, check the desktop
+   audio output and the FreeBSD Handbook sound setup instructions.
+
+4. Personalize the desktop with an anime wallpaper you have permission to use,
+   using your desktop environment's background settings.
+
+References:
+https://docs.freebsd.org/en/books/handbook/cutting-edge/
+https://docs.freebsd.org/en/books/handbook/ports/
+https://docs.freebsd.org/en/books/handbook/multimedia/

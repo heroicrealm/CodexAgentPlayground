@@ -1,6 +1,19 @@
 # CodexAgentPlayground
 Playground for CodexAgent project
 
+Build and run the Java hello world program (requires a JDK):
+
+```sh
+javac HelloWorld.java
+java HelloWorld
+```
+
+Expected output:
+
+```text
+Hello, World!
+```
+
 Run the Python QuickSort program (source file: `bubble_sort.py`):
 
 ```sh
